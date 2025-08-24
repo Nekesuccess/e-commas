@@ -1,0 +1,172 @@
+.header_container{
+    width: 100%;
+    height: 12vh;
+    background-color: #544844;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_wrap{
+    width: 90%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_Space{
+    width: 45%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.link_profile{
+    width: 55%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+
+
+
+nav {
+    width: 55%;
+    /* background-color: blueviolet; */
+}
+
+nav > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > ul > li {
+    width: 23%;
+    font-size: 18px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    transition: all 245ms ease-in-out;
+    transform: scale(1);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav > ul > li:hover{
+    background: rgba(199, 199, 199, 0.616);
+    transform: scale(0.8);
+}
+
+.all_icon{
+    width: 45%;
+    height: 100%;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    /* position: relative; */
+}
+
+.menu_icon{
+    display: none;
+}
+
+.dropdown_shop{
+    width: 100%;
+    height: 45vh;
+    position: absolute;
+    /* background-color: black; */
+    top: 100%;
+}
+
+.search_dropdown{
+    width: 45%;
+    height: 5vh;
+    position: absolute;
+    top: 100%;
+    right: -0.1px;
+    background-color: yellow;
+
+}
+
+.proflie_dropdown{
+    width: 150px;
+    height: 25vh;
+    position: absolute;
+    top: 100%;
+    right: -0.1px;
+    background-color: BROWN;
+}
+
+.cart_Icon_count{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.icon_count_num{
+    position: absolute;
+    top: -13px;
+    right: -14px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .menu_icon{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .logo_Space{
+        width: 70%;
+    }
+
+    .all_icon{
+        width: 100%;
+    }
+
+    .header_wrap{
+        width: 95%;
+    }
+
+    .search_dropdown{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 476px) {
+    
+}
+@media screen and (max-width: 414px) {
+    
+}
+@media screen and (max-width: 320px) {
+    
+}
